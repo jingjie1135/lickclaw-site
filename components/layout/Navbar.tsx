@@ -1,22 +1,33 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Link } from "@/i18n/routing";
 import { useTranslations } from "next-intl";
 import { Menu, X, Github } from "lucide-react";
+import { motion, useScroll, useTransform } from "framer-motion";
 
 export function Navbar() {
   const t = useTranslations("nav");
   const [open, setOpen] = useState(false);
-  const [isScrolled, setIsScrolled] = useState(false);
+  const { scrollY } = useScroll();
 
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 20);
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  const backgroundColor = useTransform(
+    scrollY,
+    [0, 100],
+    ["rgba(0, 0, 0, 0)", "rgba(0, 0, 0, 0.8)"]
+  );
+
+  const borderBottomColor = useTransform(
+    scrollY,
+    [0, 100],
+    ["rgba(255, 255, 255, 0)", "rgba(255, 255, 255, 0.06)"]
+  );
+
+  const backdropFilter = useTransform(
+    scrollY,
+    [0, 100],
+    ["blur(0px)", "blur(24px)"]
+  );
 
   const links = [
     { href: "/", label: t("home") },
@@ -26,12 +37,9 @@ export function Navbar() {
   ];
 
   return (
-    <nav
-      className={`fixed top-0 z-50 w-full transition-all duration-300 ${
-        isScrolled
-          ? "border-b border-white/[0.06] bg-black/80 backdrop-blur-xl"
-          : "border-b border-transparent bg-transparent"
-      }`}
+    <motion.nav
+      style={{ backgroundColor, borderBottomColor, backdropFilter }}
+      className="fixed top-0 z-50 w-full border-b"
     >
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6">
         <Link href="/" className="flex items-center gap-2">
@@ -107,6 +115,6 @@ export function Navbar() {
           </div>
         </div>
       )}
-    </nav>
+    </motion.nav>
   );
 }
