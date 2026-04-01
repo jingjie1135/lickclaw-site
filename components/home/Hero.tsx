@@ -21,7 +21,7 @@ export function Hero() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
-        className="relative z-10 mb-8 flex flex-col items-center gap-2"
+        className="relative z-10 mb-12 flex flex-col items-center gap-6"
       >
         <img
           src="/logo.svg"
@@ -37,7 +37,7 @@ export function Hero() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.1 }}
-        className="relative z-10 flex flex-col items-center gap-4 font-bold tracking-tight"
+        className="relative z-10 flex flex-col items-center gap-8 font-bold tracking-tight"
       >
         <div className="text-4xl md:text-6xl text-center">
           <GradientText>{t("titleLine1")}</GradientText>
@@ -51,7 +51,7 @@ export function Hero() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.2 }}
-        className="relative z-10 mt-6 max-w-2xl text-lg text-gray-400 md:text-xl"
+        className="relative z-10 mt-10 max-w-2xl text-lg text-gray-400 md:text-xl"
       >
         {t("subtitle")}
       </motion.p>
@@ -60,7 +60,7 @@ export function Hero() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.3 }}
-        className="relative z-10 mt-10 flex flex-wrap items-center justify-center gap-4"
+        className="relative z-10 mt-14 flex flex-wrap items-center justify-center gap-6"
       >
         <Link href="/download">
           <Button>
