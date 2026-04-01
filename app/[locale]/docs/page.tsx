@@ -31,29 +31,29 @@ export default function DocsPage() {
             </div>
           </section>
 
-          {/* 压缩代理 */}
+          {/* Token 压缩引擎 */}
           <section>
-            <h2 className="text-2xl font-semibold text-brand-cyan">压缩代理</h2>
+            <h2 className="text-2xl font-semibold text-brand-cyan">Token 压缩引擎</h2>
             <div className="mt-4 rounded-xl border border-white/[0.06] bg-[#111318] p-6">
               <p className="text-sm text-gray-400">
                 LickClaw 内置 14 阶段 Fusion Pipeline 压缩引擎，自动压缩 LLM 对话上下文，
                 节省 15-82% Token 消耗，零额外推理成本。
               </p>
               <div className="mt-4 rounded-lg bg-black/50 p-4 font-mono text-sm text-gray-300">
-                设置 → Gateway → 压缩代理 → 开启
+                设置 → Gateway → Token 压缩引擎 → 开启
               </div>
             </div>
           </section>
 
-          {/* 中转代理 */}
+          {/* 模型热切换 */}
           <section>
-            <h2 className="text-2xl font-semibold text-brand-cyan">中转代理</h2>
+            <h2 className="text-2xl font-semibold text-brand-cyan">模型热切换</h2>
             <div className="mt-4 rounded-xl border border-white/[0.06] bg-[#111318] p-6">
               <p className="text-sm text-gray-400">
-                中转代理在请求层拦截 LLM 调用，支持运行时动态切换模型、品牌脱敏和请求日志。
+                本地网关在请求层拦截 LLM 调用，支持运行时动态切换模型、品牌脱敏和请求日志。
               </p>
               <div className="mt-4 rounded-lg bg-black/50 p-4 font-mono text-sm text-gray-300">
-                管理中心 → 渠道 → 中转代理模式
+                管理中心 → 渠道 → 动态热切换模式
               </div>
             </div>
           </section>
