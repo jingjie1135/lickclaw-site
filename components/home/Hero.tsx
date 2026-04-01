@@ -26,9 +26,9 @@ export function Hero() {
         <img
           src="/logo.svg"
           alt="LickClaw"
-          className="h-32 w-32 drop-shadow-[0_0_40px_rgba(255,69,0,0.6)] md:h-40 md:w-40"
+          className="h-64 w-64 drop-shadow-[0_0_80px_rgba(255,69,0,0.8)] md:h-[320px] md:w-[320px]"
         />
-        <h2 className="text-3xl font-extrabold tracking-widest text-white drop-shadow-lg md:text-5xl">
+        <h2 className="bg-gradient-to-br from-brand-red via-brand-orange to-brand-cyan bg-clip-text text-5xl font-extrabold tracking-[0.2em] text-transparent drop-shadow-2xl md:text-7xl">
           LickClaw
         </h2>
       </motion.div>
