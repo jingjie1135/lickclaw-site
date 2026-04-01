@@ -11,6 +11,9 @@ export const metadata = {
   title: "LickClaw — 立刻使用龙虾并享受词元压缩",
   description:
     "Token 节省 15-82%，零推理成本的 AI Agent 桌面客户端。基于 OpenClaw 开源生态，本地运行，数据永不上传。",
+  icons: {
+    icon: "/title.svg",
+  },
 };
 
 export default async function LocaleLayout({
