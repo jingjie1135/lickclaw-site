@@ -63,12 +63,6 @@ export function Footer() {
               >
                 GitHub
               </a>
-              <a
-                href="#"
-                className="text-sm text-gray-500 hover:text-white"
-              >
-                Discord
-              </a>
               <a href="#" className="text-sm text-gray-500 hover:text-white">
                 飞书
               </a>
@@ -81,7 +75,7 @@ export function Footer() {
             © 2026 LickClaw. MIT License.
           </p>
           <a
-            href="https://github.com/jingjie1135/LickClawX"
+            href="https://github.com/jingjie1135/lickclaw-site"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-600 transition-colors hover:text-white"
