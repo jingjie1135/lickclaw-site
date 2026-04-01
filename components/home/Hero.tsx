@@ -61,7 +61,7 @@ export function Hero() {
           </Button>
         </Link>
         <a
-          href="https://github.com/jingjie1135/LickClawX"
+          href="https://github.com/jingjie1135/lickclaw-site"
           target="_blank"
           rel="noopener noreferrer"
         >

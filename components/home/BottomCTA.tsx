@@ -32,7 +32,7 @@ export function BottomCTA() {
               <ArrowRight className="h-4 w-4" />
             </Button>
             <a
-              href="https://github.com/jingjie1135/LickClawX"
+              href="https://github.com/jingjie1135/lickclaw-site"
               target="_blank"
               rel="noopener noreferrer"
             >

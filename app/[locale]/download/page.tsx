@@ -60,7 +60,7 @@ export default function DownloadPage() {
             {t("version")} v0.3.2 · {t("released")} 2026-03
           </p>
           <a
-            href="https://github.com/jingjie1135/LickClawX/releases"
+            href="https://github.com/jingjie1135/lickclaw-site/releases"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-2 inline-flex items-center gap-1 text-sm text-brand-cyan hover:text-white"

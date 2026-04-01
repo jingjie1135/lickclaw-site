@@ -38,7 +38,7 @@ export function Navbar() {
 
         <div className="hidden items-center gap-4 md:flex">
           <a
-            href="https://github.com/jingjie1135/LickClawX"
+            href="https://github.com/jingjie1135/lickclaw-site"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 transition-colors hover:text-white"

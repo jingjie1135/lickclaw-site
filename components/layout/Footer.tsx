@@ -56,7 +56,7 @@ export function Footer() {
             <h4 className="mb-3 text-sm font-medium text-gray-300">社区</h4>
             <div className="flex flex-col gap-2">
               <a
-                href="https://github.com/jingjie1135/LickClawX"
+                href="https://github.com/jingjie1135/lickclaw-site"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm text-gray-500 hover:text-white"
