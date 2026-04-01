@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "LickClaw — 为 AI Agent 装上龙虾钳",
+  title: "LickClaw — 立刻为龙虾装上词元压缩",
   description: "Token 节省 15-82%，零推理成本的 AI Agent 桌面客户端。",
 };
 

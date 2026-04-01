@@ -21,13 +21,16 @@ export function Hero() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
-        className="relative z-10 mb-6"
+        className="relative z-10 mb-8 flex flex-col items-center gap-4"
       >
         <img
           src="/logo.svg"
           alt="LickClaw"
-          className="h-20 w-20 drop-shadow-[0_0_30px_rgba(255,69,0,0.5)]"
+          className="h-32 w-32 drop-shadow-[0_0_40px_rgba(255,69,0,0.6)] md:h-40 md:w-40"
         />
+        <h2 className="text-3xl font-extrabold tracking-widest text-white drop-shadow-lg md:text-5xl">
+          LickClaw
+        </h2>
       </motion.div>
 
       <motion.h1

@@ -13,19 +13,19 @@ export function Navbar() {
 
   const backgroundColor = useTransform(
     scrollY,
-    [0, 400],
+    [0, 1600],
     ["rgba(0, 0, 0, 0)", "rgba(0, 0, 0, 0.8)"]
   );
 
   const borderBottomColor = useTransform(
     scrollY,
-    [0, 400],
+    [0, 1600],
     ["rgba(255, 255, 255, 0)", "rgba(255, 255, 255, 0.06)"]
   );
 
   const backdropFilter = useTransform(
     scrollY,
-    [0, 400],
+    [0, 1600],
     ["blur(0px)", "blur(24px)"]
   );
 

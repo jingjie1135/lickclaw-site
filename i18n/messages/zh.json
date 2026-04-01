@@ -6,7 +6,7 @@
     "download": "下载"
   },
   "hero": {
-    "title": "为 AI Agent 装上龙虾钳",
+    "title": "立刻为龙虾装上词元压缩",
     "subtitle": "内置 14 阶段压缩引擎、模型热切换网关和可视化管理中心。Token 节省 15-82%，零推理成本，本地运行，数据永不上传。",
     "download": "立即下载",
     "github": "GitHub"
@@ -14,10 +14,10 @@
   "features": {
     "relayProxy": {
       "title": "模型热切换",
-      "description": "在请求层拦截 LLM 调用，支持运行时动态切换模型，无需重启应用。支持 LickClaw 官方加速节点和自定义 Provider 双渠道自由切换，一键完成。",
+      "description": "在请求层拦截 LLM 调用，支持运行时动态切换模型，无需重启应用。支持 LickClaw 官方站点和自定义 Provider 双渠道自由切换，一键完成。",
       "highlights": [
         "运行时动态切换模型，无需重启",
-        "支持官方节点 / 自定义 Provider 双渠道",
+        "支持官方站点 / 自定义 Provider 双渠道",
         "API Key 自动替换，免手动配置",
         "品牌脱敏，保护隐私",
         "请求日志保存，便于调试"
