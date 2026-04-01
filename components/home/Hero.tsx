@@ -28,7 +28,7 @@ export function Hero() {
           alt="LickClaw"
           className="h-56 w-56 drop-shadow-[0_0_80px_rgba(255,69,0,0.6)] md:h-[260px] md:w-[260px]"
         />
-        <h1 className="bg-gradient-to-b from-brand-red via-brand-orange to-brand-cyan bg-clip-text text-5xl font-black tracking-[0.1em] text-transparent drop-shadow-xl md:text-[5rem]">
+        <h1 className="bg-gradient-to-br from-white via-white to-white/40 bg-clip-text text-5xl font-black tracking-[0.15em] text-transparent drop-shadow-[0_0_30px_rgba(255,255,255,0.2)] md:text-[5.5rem]">
           LickClaw
         </h1>
       </motion.div>
