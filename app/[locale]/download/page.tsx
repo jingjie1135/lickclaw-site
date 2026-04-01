@@ -50,7 +50,7 @@ export default function DownloadPage() {
               <div className="mt-6 flex flex-col gap-3">
                 <a href="#" target="_blank" rel="noopener noreferrer" className="block w-full">
                   <Button className="w-full">
-                    <Download className="h-4 w-4" />
+                    <ExternalLink className="h-4 w-4" />
                     {t("feishuDoc")}
                   </Button>
                 </a>
