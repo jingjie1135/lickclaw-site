@@ -1,0 +1,111 @@
+{
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "docs": "Docs",
+    "download": "Download"
+  },
+  "hero": {
+    "title": "Power Your AI Agent with Lobster Claws",
+    "subtitle": "Built-in 14-stage compression engine, relay proxy, and visual management center. Save 15-82% tokens, zero inference cost, runs locally — your data never leaves your machine.",
+    "download": "Download",
+    "github": "GitHub"
+  },
+  "features": {
+    "relayProxy": {
+      "title": "Relay Proxy",
+      "description": "Intercepts LLM calls at the request layer, enabling model hot-swapping at runtime without restarting. Supports dual-channel switching between the official LickClaw relay and custom Providers, all with a single click.",
+      "highlights": [
+        "Dynamic model switching at runtime, no restart",
+        "Dual channel: official relay / custom Provider",
+        "Automatic API Key replacement",
+        "Brand desensitization for privacy",
+        "Request logging for debugging"
+      ]
+    },
+    "compactor": {
+      "title": "Compactor",
+      "description": "A 14-stage real-time message compression engine built on Fusion Pipeline. From code structure analysis to semantic deduplication, each stage is a specialized compressor chained in an immutable data flow. Zero LLM inference cost, 15-82% compression rate.",
+      "highlights": [
+        "14-stage Fusion Pipeline: Cortex → Photon → RLE → SemanticDedup → Ionizer → Neurosyntax → RepeatCrunch → TokenOptimizer",
+        "CJK text enhanced compression (12-stage pipeline + CJK tokenization)",
+        "Agent-config-based Tool Filtering",
+        "Tools Schema cleaning + cross-message dedup",
+        "Compression ratio statistics persistence",
+        "Fully automatic, no manual operation needed"
+      ]
+    },
+    "management": {
+      "title": "Visual Management",
+      "description": "An integrated management panel unifying account management, channel switching, usage analytics, and Agent configuration. Plugin management supports drag-and-drop installation, enable/disable, and updates — all through a graphical interface.",
+      "highlights": [
+        "Four tabs: Account / Channel / Usage / Agent",
+        "Drag-and-drop plugin install + enable/disable",
+        "One-click channel mode switching",
+        "Token usage history visualization",
+        "No command line needed"
+      ]
+    },
+    "agents": {
+      "title": "Agent Enhancement",
+      "description": "Multi-tab Agent settings panel with basic info, tool management, and persona editing. Each Agent can independently configure enabled skills and tools for fine-grained Token control.",
+      "highlights": [
+        "Multi-tab: Basic Info / Tool Management / Persona",
+        "Per-Agent skill configuration and tool toggles",
+        "Independent persona editing",
+        "New Agents default to all skills disabled, saving Tokens",
+        "Agent-level model override"
+      ]
+    },
+    "gateway": {
+      "title": "Dual Version Parallel",
+      "description": "Independent ports and config directories allow LickClaw and original ClawX to run simultaneously without conflicts. Fully isolated environments that don't interfere with each other.",
+      "highlights": [
+        "Independent ports and config directories",
+        "Runs alongside original ClawX",
+        "Fully isolated environments",
+        "Process lock isolation for stability",
+        "Data stored locally for security"
+      ]
+    },
+    "pageTitle": "Features",
+    "pageSubtitle": "Explore the core capabilities of LickClaw"
+  },
+  "comparison": {
+    "title": "Full Feature Comparison",
+    "subtitle": "LickClaw fully enhances the original",
+    "header": {
+      "feature": "Feature",
+      "clawx": "Original ClawX",
+      "saas": "SaaS Agent"
+    },
+    "items": {
+      "tokenCompress": "Token Compression (15-82%)",
+      "relayProxy": "Relay Proxy / Model Hot-Swap",
+      "pluginManage": "Visual Plugin Management",
+      "agentConfig": "Agent-Level Configuration",
+      "gatewayIso": "Dual Version / Environment Isolation",
+      "sourceProtect": "Source Protection",
+      "dataSecurity": "Local Data Storage",
+      "localRun": "Local Run / Data Never Uploaded"
+    }
+  },
+  "openSource": {
+    "localRun": "Data runs locally",
+    "description": "Your data never leaves your machine. API Keys are stored using OS-native encryption for maximum security."
+  },
+  "bottomCta": {
+    "title": "Start Using LickClaw Now",
+    "subtitle": "Runs locally, supports Windows / macOS / Linux",
+    "download": "Download",
+    "github": "GitHub"
+  },
+  "download": {
+    "title": "Download LickClaw",
+    "subtitle": "Available for Windows, macOS, and Linux",
+    "downloadBtn": "Download",
+    "version": "Current Version",
+    "released": "Released",
+    "changelog": "View Changelog"
+  }
+}

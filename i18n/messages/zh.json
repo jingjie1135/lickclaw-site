@@ -1,0 +1,111 @@
+{
+  "nav": {
+    "home": "首页",
+    "features": "功能",
+    "docs": "文档",
+    "download": "下载"
+  },
+  "hero": {
+    "title": "为 AI Agent 装上龙虾钳",
+    "subtitle": "内置 14 阶段压缩引擎、中转代理和可视化管理中心。Token 节省 15-82%，零推理成本，本地运行，数据永不上传。",
+    "download": "立即下载",
+    "github": "GitHub"
+  },
+  "features": {
+    "relayProxy": {
+      "title": "中转代理",
+      "description": "在请求层拦截 LLM 调用，支持运行时动态切换模型，无需重启应用。支持 LickClaw 官方中转站和自定义 Provider 双渠道自由切换，一键完成。",
+      "highlights": [
+        "运行时动态切换模型，无需重启",
+        "支持官方中转站 / 自定义 Provider 双渠道",
+        "API Key 自动替换，免手动配置",
+        "品牌脱敏，保护隐私",
+        "请求日志保存，便于调试"
+      ]
+    },
+    "compactor": {
+      "title": "压缩代理",
+      "description": "基于 14 阶段 Fusion Pipeline 的实时消息压缩引擎。从代码结构分析到语义去重，每个阶段都是专门的压缩器，串联在不可变数据流中，自动压缩对话上下文。零 LLM 推理成本，压缩率 15-82%。",
+      "highlights": [
+        "14 阶段 Fusion Pipeline：Cortex → Photon → RLE → SemanticDedup → Ionizer → Neurosyntax → RepeatCrunch → TokenOptimizer",
+        "CJK 文本增强压缩（12 阶段管线 + CJK 分词）",
+        "基于 Agent 配置的工具过滤",
+        "Tools Schema 清洗 + 跨消息去重",
+        "压缩率统计持久化",
+        "自动压缩，无需手动操作"
+      ]
+    },
+    "management": {
+      "title": "可视化管理",
+      "description": "整合式管理中心，将账号管理、渠道切换、用量统计和 Agent 配置统一到一个面板。插件管理支持拖拽安装、启用/禁用和更新，全程图形界面操作。",
+      "highlights": [
+        "四大 Tab：账号 / 渠道 / 用量 / Agent",
+        "插件拖拽安装 + 启用/禁用",
+        "渠道模式一键切换",
+        "Token 用量历史可视化",
+        "告别命令行，全程可视化"
+      ]
+    },
+    "agents": {
+      "title": "Agent 增强",
+      "description": "多 Tab Agent 设置面板，支持基本信息、工具管理和人设编辑。每个 Agent 可独立配置启用的技能和工具，精细控制 Token 消耗。",
+      "highlights": [
+        "多 Tab 设置：基本信息 / 工具管理 / 人设编辑",
+        "Per-Agent 技能配置与工具开关",
+        "人设编辑独立配置",
+        "新建 Agent 默认禁用所有技能，节省 Token",
+        "Agent 级别模型覆盖"
+      ]
+    },
+    "gateway": {
+      "title": "双版本并行",
+      "description": "独立端口和配置目录，LickClaw 与原版 ClawX 可同时运行不冲突。环境完全隔离，互不干扰。",
+      "highlights": [
+        "独立端口和配置目录",
+        "可与原版 ClawX 同时运行",
+        "环境完全隔离，互不干扰",
+        "进程锁隔离，稳定性有保障",
+        "数据安全，本地存储"
+      ]
+    },
+    "pageTitle": "功能详情",
+    "pageSubtitle": "深入了解 LickClaw 的核心能力"
+  },
+  "comparison": {
+    "title": "功能全景对比",
+    "subtitle": "LickClaw 在原版基础上全面增强",
+    "header": {
+      "feature": "功能",
+      "clawx": "原版 ClawX",
+      "saas": "SaaS Agent"
+    },
+    "items": {
+      "tokenCompress": "Token 压缩（15-82%）",
+      "relayProxy": "中转代理 / 模型热切换",
+      "pluginManage": "插件可视化管理",
+      "agentConfig": "Agent 级别配置",
+      "gatewayIso": "双版本并行 / 环境隔离",
+      "sourceProtect": "源码保护",
+      "dataSecurity": "数据本地存储",
+      "localRun": "本地运行 / 数据不上传"
+    }
+  },
+  "openSource": {
+    "localRun": "数据本地运行",
+    "description": "数据永不上传云端，完全运行在你的本地设备上。API Key 使用系统原生加密存储，安全可靠。"
+  },
+  "bottomCta": {
+    "title": "立即开始使用 LickClaw",
+    "subtitle": "本地运行，支持 Windows / macOS / Linux",
+    "download": "立即下载",
+    "github": "GitHub"
+  },
+  "download": {
+    "title": "下载 LickClaw",
+    "subtitle": "支持 Windows、macOS 和 Linux",
+    "downloadBtn": "下载",
+    "version": "当前版本",
+    "released": "发布于",
+    "changelog": "查看更新日志"
+  }
+}
