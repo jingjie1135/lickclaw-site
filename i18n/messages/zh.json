@@ -105,6 +105,8 @@
     "title": "下载 LickClaw",
     "subtitle": "支持 Windows、macOS 和 Linux",
     "downloadBtn": "下载",
+    "feishuDoc": "飞书云文档下载",
+    "directDownload": "直接下载 (暂未开放)",
     "version": "当前版本",
     "released": "发布于",
     "changelog": "查看更新日志"

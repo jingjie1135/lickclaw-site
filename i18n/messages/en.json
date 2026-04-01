@@ -105,6 +105,8 @@
     "title": "Download LickClaw",
     "subtitle": "Available for Windows, macOS, and Linux",
     "downloadBtn": "Download",
+    "feishuDoc": "Feishu Cloud Doc",
+    "directDownload": "Direct Download (Soon)",
     "version": "Current Version",
     "released": "Released",
     "changelog": "View Changelog"

@@ -47,10 +47,18 @@ export default function DownloadPage() {
               <p className="mt-1 text-sm text-gray-500">
                 {p.arch.join(" / ")} {p.ext}
               </p>
-              <Button className="mt-6 w-full">
-                <Download className="h-4 w-4" />
-                {t("downloadBtn")}
-              </Button>
+              <div className="mt-6 flex flex-col gap-3">
+                <a href="#" target="_blank" rel="noopener noreferrer" className="block w-full">
+                  <Button className="w-full">
+                    <Download className="h-4 w-4" />
+                    {t("feishuDoc")}
+                  </Button>
+                </a>
+                <Button variant="secondary" disabled className="w-full cursor-not-allowed opacity-50">
+                  <Download className="h-4 w-4" />
+                  {t("directDownload")}
+                </Button>
+              </div>
             </div>
           ))}
         </div>
