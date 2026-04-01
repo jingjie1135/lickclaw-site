@@ -1,10 +1,12 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { ArrowRight, Github } from "lucide-react";
+import { ArrowRight, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { GradientText } from "@/components/ui/GradientText";
+import { siteConfig } from "@/config/site";
 import { motion } from "framer-motion";
+import { Link } from "@/i18n/routing";
 
 export function BottomCTA() {
   const t = useTranslations("bottomCta");
@@ -27,18 +29,20 @@ export function BottomCTA() {
           </h2>
           <p className="mt-4 text-lg text-gray-400">{t("subtitle")}</p>
           <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
-            <Button>
-              {t("download")}
-              <ArrowRight className="h-4 w-4" />
-            </Button>
+            <Link href="/download">
+              <Button>
+                {t("download")}
+                <ArrowRight className="h-4 w-4" />
+              </Button>
+            </Link>
             <a
-              href="https://github.com/jingjie1135/lickclaw-site"
+              href={siteConfig.links.feishuDoc}
               target="_blank"
               rel="noopener noreferrer"
             >
               <Button variant="secondary">
-                <Github className="h-4 w-4" />
-                {t("github")}
+                <ExternalLink className="h-4 w-4" />
+                {t("feishuDoc")}
               </Button>
             </a>
           </div>

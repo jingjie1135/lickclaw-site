@@ -3,6 +3,7 @@
 import { useTranslations } from "next-intl";
 import { Monitor, Apple, Laptop, Download, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/Button";
+import { siteConfig } from "@/config/site";
 
 export default function DownloadPage() {
   const t = useTranslations("download");
@@ -48,7 +49,7 @@ export default function DownloadPage() {
                 {p.arch.join(" / ")} {p.ext}
               </p>
               <div className="mt-6 flex flex-col gap-3">
-                <a href="#" target="_blank" rel="noopener noreferrer" className="block w-full">
+                <a href={siteConfig.links.feishuDoc} target="_blank" rel="noopener noreferrer" className="block w-full">
                   <Button className="w-full">
                     <ExternalLink className="h-4 w-4" />
                     {t("feishuDoc")}

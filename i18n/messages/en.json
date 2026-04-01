@@ -99,7 +99,8 @@
     "title": "Start Using LickClaw Now",
     "subtitle": "Runs locally, supports Windows / macOS / Linux",
     "download": "Download",
-    "github": "GitHub"
+    "github": "GitHub",
+    "feishuDoc": "Feishu Cloud Doc"
   },
   "download": {
     "title": "Download LickClaw",

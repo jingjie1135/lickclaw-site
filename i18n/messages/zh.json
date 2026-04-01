@@ -7,10 +7,11 @@
   },
   "hero": {
     "titleLine1": "立刻开始使用龙虾",
-    "titleLine2": "并装上词元压缩，避免Token浪费",
+    "titleLine2": "并享受词元压缩，节省你的Token费用",
     "subtitle": "内置 14 阶段压缩引擎、模型热切换网关和可视化管理中心。Token 节省 15-82%，零推理成本，本地运行，数据永不上传。",
     "download": "立即下载",
-    "github": "GitHub"
+    "github": "GitHub",
+    "feishuDoc": "飞书云文档"
   },
   "features": {
     "relayProxy": {
@@ -99,7 +100,8 @@
     "title": "立即开始使用 LickClaw",
     "subtitle": "本地运行，支持 Windows / macOS / Linux",
     "download": "立即下载",
-    "github": "GitHub"
+    "github": "GitHub",
+    "feishuDoc": "飞书云文档"
   },
   "download": {
     "title": "下载 LickClaw",
