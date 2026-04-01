@@ -13,9 +13,9 @@ export function Hero() {
 
   return (
     <section className="relative flex min-h-[60vh] flex-col items-center justify-center overflow-hidden px-6 pb-8 pt-16 text-center">
-      <div className="pointer-events-none absolute left-1/2 top-1/3 -translate-x-1/2 -translate-y-1/2">
-        <div className="h-[500px] w-[500px] rounded-full bg-brand-red/10 blur-[120px]" />
-        <div className="absolute left-1/3 top-0 h-[300px] w-[300px] rounded-full bg-brand-cyan/5 blur-[100px]" />
+      <div className="pointer-events-none absolute left-1/2 top-1/3 -translate-x-1/2 -translate-y-1/2 transform-gpu">
+        <div className="h-[300px] w-[300px] rounded-full bg-brand-red/10 blur-[80px] md:h-[500px] md:w-[500px] md:blur-[120px]" />
+        <div className="absolute left-1/2 top-0 h-[200px] w-[200px] -translate-x-1/2 rounded-full bg-brand-cyan/5 blur-[60px] md:h-[300px] md:w-[300px] md:blur-[100px]" />
       </div>
 
       <motion.div
@@ -27,9 +27,9 @@ export function Hero() {
         <img
           src="/logo.svg"
           alt="LickClaw"
-          className="h-56 w-56 drop-shadow-[0_0_80px_rgba(255,69,0,0.6)] md:h-[260px] md:w-[260px]"
+          className="relative h-56 w-56 transform-gpu drop-shadow-[0_0_40px_rgba(255,69,0,0.5)] md:h-[260px] md:w-[260px] md:drop-shadow-[0_0_80px_rgba(255,69,0,0.6)]"
         />
-        <h1 className="bg-gradient-to-br from-white via-white to-white/40 bg-clip-text text-5xl font-black tracking-[0.15em] text-transparent drop-shadow-[0_0_30px_rgba(255,255,255,0.2)] md:text-[5.5rem]">
+        <h1 className="bg-gradient-to-br from-white via-white to-white/40 bg-clip-text text-5xl font-black tracking-[0.15em] text-transparent md:text-[5.5rem]">
           LickClaw
         </h1>
       </motion.div>
