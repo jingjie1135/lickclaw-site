@@ -52,6 +52,7 @@ export function Navbar() {
             <Link
               key={link.href}
               href={link.href}
+              prefetch={true}
               className="text-sm text-gray-400 transition-colors hover:text-white"
             >
               {link.label}
@@ -95,6 +96,7 @@ export function Navbar() {
             <Link
               key={link.href}
               href={link.href}
+              prefetch={true}
               className="block py-2 text-sm text-gray-400 hover:text-white"
               onClick={() => setOpen(false)}
             >
