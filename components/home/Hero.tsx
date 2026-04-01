@@ -37,9 +37,14 @@ export function Hero() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.1 }}
-        className="relative z-10 text-4xl font-bold tracking-tight md:text-6xl"
+        className="relative z-10 font-bold tracking-tight"
       >
-        <GradientText>{t("title")}</GradientText>
+        <div className="text-4xl md:text-6xl mb-4">
+          <GradientText>{t("titleLine1")}</GradientText>
+        </div>
+        <div className="text-3xl md:text-5xl">
+          <GradientText>{t("titleLine2")}</GradientText>
+        </div>
       </motion.h1>
 
       <motion.p

@@ -6,7 +6,8 @@
     "download": "Download"
   },
   "hero": {
-    "title": "Power Your AI Agent with Lobster Claws",
+    "titleLine1": "Start Using Lobster Claws Now",
+    "titleLine2": "Equip token compression, stop wasting tokens",
     "subtitle": "Built-in 14-stage compression engine, relay proxy, and visual management center. Save 15-82% tokens, zero inference cost, runs locally — your data never leaves your machine.",
     "download": "Download",
     "github": "GitHub"
