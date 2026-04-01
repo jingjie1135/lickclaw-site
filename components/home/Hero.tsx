@@ -21,31 +21,31 @@ export function Hero() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
-        className="relative z-10 mb-8 flex flex-col items-center gap-4"
+        className="relative z-10 mb-8 flex flex-col items-center gap-2"
       >
         <img
           src="/logo.svg"
           alt="LickClaw"
-          className="h-64 w-64 drop-shadow-[0_0_80px_rgba(255,69,0,0.8)] md:h-[320px] md:w-[320px]"
+          className="h-56 w-56 drop-shadow-[0_0_80px_rgba(255,69,0,0.6)] md:h-[260px] md:w-[260px]"
         />
-        <h2 className="bg-gradient-to-br from-brand-red via-brand-orange to-brand-cyan bg-clip-text text-5xl font-extrabold tracking-[0.2em] text-transparent drop-shadow-2xl md:text-7xl">
+        <h1 className="bg-gradient-to-b from-brand-red via-brand-orange to-brand-cyan bg-clip-text text-5xl font-black tracking-[0.1em] text-transparent drop-shadow-xl md:text-[5rem]">
           LickClaw
-        </h2>
+        </h1>
       </motion.div>
 
-      <motion.h1
+      <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.1 }}
-        className="relative z-10 font-bold tracking-tight"
+        className="relative z-10 flex flex-col gap-4 font-bold tracking-tight"
       >
-        <div className="text-4xl md:text-6xl mb-4">
-          <GradientText>{t("titleLine1")}</GradientText>
-        </div>
-        <div className="text-3xl md:text-5xl">
-          <GradientText>{t("titleLine2")}</GradientText>
-        </div>
-      </motion.h1>
+        <h2 className="text-3xl text-gray-100 md:text-5xl drop-shadow-md">
+          {t("titleLine1")}
+        </h2>
+        <h3 className="text-xl text-gray-400 md:text-3xl">
+          {t("titleLine2")}
+        </h3>
+      </motion.div>
 
       <motion.p
         initial={{ opacity: 0, y: 20 }}
